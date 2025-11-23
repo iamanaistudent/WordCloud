@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Cloud Generator - Introduction</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="hero-section">
+            <h1 class="main-title">Word Cloud Generator</h1>
+            <p class="subtitle">Transform your text into beautiful visual word clouds</p>
+            <div class="hero-image">
+                <div class="word-cloud-preview">
+                    <span class="word-large">Word</span>
+                    <span class="word-medium">Cloud</span>
+                    <span class="word-small">Generator</span>
+                    <span class="word-large">Visual</span>
+                    <span class="word-medium">Text</span>
+                    <span class="word-small">Beautiful</span>
+                    <span class="word-medium">Create</span>
+                    <span class="word-small">Amazing</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="content">
+            <section class="intro-section">
+                <h2>What is a Word Cloud?</h2>
+                <p>A word cloud (also known as a tag cloud) is a visual representation of text data where words are displayed in different sizes based on their frequency or importance. The more frequently a word appears in the source text, the larger it appears in the word cloud.</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Data Visualization</h3>
+                        <p>Transform text data into engaging visual representations that make patterns and trends immediately apparent.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Customizable Design</h3>
+                        <p>Choose from various colors, fonts, and layouts to create word clouds that match your style and brand.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Easy to Use</h3>
+                        <p>Simply paste your text and watch as our algorithm automatically generates a beautiful word cloud for you.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="how-it-works">
+                <h2>How It Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Input Your Text</h3>
+                            <p>Paste or type your text content into the input area. This could be anything from a blog post to a speech transcript.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Customize Settings</h3>
+                            <p>Adjust colors, font styles, word count, and layout preferences to match your vision.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Generate & Download</h3>
+                            <p>Click generate to create your word cloud and download it as an image file for use in presentations or documents.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="demo-section">
+                <h2>Try It Out</h2>
+                <div class="demo-container">
+                    <div class="input-section">
+                        <label for="text-input">Enter your text:</label>
+                        <textarea id="text-input" placeholder="Paste your text here to see a live preview of your word cloud..."></textarea>
+                        <button id="generate-btn" class="generate-button">Generate Word Cloud</button>
+                    </div>
+                    
+                    <div class="output-section">
+                        <div id="word-cloud-output" class="word-cloud-container">
+                            <p class="placeholder-text">Your word cloud will appear here...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="use-cases">
+                <h2>Popular Use Cases</h2>
+                <div class="use-cases-grid">
+                    <div class="use-case">
+                        <h3>📝 Content Analysis</h3>
+                        <p>Analyze blog posts, articles, or social media content to identify key themes and topics.</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>🎓 Education</h3>
+                        <p>Help students visualize vocabulary, analyze literature, or summarize research papers.</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>💼 Business</h3>
+                        <p>Analyze customer feedback, survey responses, or marketing content for insights.</p>
+                    </div>
+                    
+                    <div class="use-case">
+                        <h3>📊 Presentations</h3>
+                        <p>Create eye-catching visuals for reports, presentations, and infographics.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 Word Cloud Generator. Built with HTML, CSS, and JavaScript.</p>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#help">Help</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
